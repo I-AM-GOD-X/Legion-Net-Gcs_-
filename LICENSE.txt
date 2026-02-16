@@ -1,0 +1,11 @@
+Copyright (c) 2026 Удай
+
+All rights reserved.
+
+This software is proprietary.
+
+This repository contains compiled executable files only.
+The source code is private and not distributed.
+
+You may use the software, but you may not copy, modify,
+redistribute, or reverse engineer it without permission.
