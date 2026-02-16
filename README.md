@@ -473,33 +473,52 @@ Unused fields may be set to `0`.
 | 9 | `gz` | Gyro Z | deg/s | -2000 to +2000 |
 
 
-| 10 | `mosfet` | MOSFET / ejection status | bool/int | 0 or 1 |
+| #  | Parameter | Description              | Unit     | Typical Range |
+| -- | --------- | ------------------------ | -------- | ------------- |
+| 10 | `mosfet`  | MOSFET / ejection status | bool/int | 0 or 1        |
+
+---
 
 ### GPS
 
-| 11 | `lat` | Latitude | degrees | -90 to +90 |
-| 12 | `lon` | Longitude | degrees | -180 to +180 |
-| 13 | `peakAlt` | Peak altitude reached | meters | 0–10000+ |
+| #  | Parameter | Description           | Unit    | Typical Range |
+| -- | --------- | --------------------- | ------- | ------------- |
+| 11 | `lat`     | Latitude              | degrees | -90 to +90    |
+| 12 | `lon`     | Longitude             | degrees | -180 to +180  |
+| 13 | `peakAlt` | Peak altitude reached | meters  | 0–10000+      |
+
+---
 
 ### Orientation (Estimated)
 
-| 14 | `roll_i` | Roll angle | degrees | -180 to +180 |
-| 15 | `pitch_i` | Pitch angle | degrees | -180 to +180 |
-| 16 | `yaw_i` | Yaw angle | degrees | 0–360 |
+| #  | Parameter | Description | Unit    | Typical Range |
+| -- | --------- | ----------- | ------- | ------------- |
+| 14 | `roll_i`  | Roll angle  | degrees | -180 to +180  |
+| 15 | `pitch_i` | Pitch angle | degrees | -180 to +180  |
+| 16 | `yaw_i`   | Yaw angle   | degrees | 0–360         |
+
+---
 
 ### GPS Motion
 
-| 17 | `gpsSpd_i` | GPS speed | m/s | 0–300 |
-| 18 | `gpsVSpd_i` | GPS vertical speed | m/s | -200 to +200 |
-| 19 | `gpsAlt_i` | GPS altitude | meters | -50 to 5000+ |
-| 20 | `course_i` | GPS course heading | degrees | 0–360 |
-| 21 | `hdop_i` | GPS HDOP accuracy | unitless | 0.5–10 |
-| 22 | `sats` | Number of satellites | count | 0–30 |
+| #  | Parameter   | Description          | Unit     | Typical Range |
+| -- | ----------- | -------------------- | -------- | ------------- |
+| 17 | `gpsSpd_i`  | GPS speed            | m/s      | 0–300         |
+| 18 | `gpsVSpd_i` | GPS vertical speed   | m/s      | -200 to +200  |
+| 19 | `gpsAlt_i`  | GPS altitude         | meters   | -50 to 5000+  |
+| 20 | `course_i`  | GPS course heading   | degrees  | 0–360         |
+| 21 | `hdop_i`    | GPS HDOP accuracy    | unitless | 0.5–10        |
+| 22 | `sats`      | Number of satellites | count    | 0–30          |
+
+---
 
 ### Temperatures
 
-| 23 | `bmpTemp_C` | BMP sensor temperature | °C | -40 to 85 |
-| 24 | `mpuTemp_C` | MPU sensor temperature | °C | -40 to 85 |
+| #  | Parameter   | Description            | Unit | Typical Range |
+| -- | ----------- | ---------------------- | ---- | ------------- |
+| 23 | `bmpTemp_C` | BMP sensor temperature | °C   | -40 to 85     |
+| 24 | `mpuTemp_C` | MPU sensor temperature | °C   | -40 to 85     |
+
 
 ---
 
